@@ -1,4 +1,4 @@
-include "linux-keys-bare"
+include "linux-keys-bare.inc"
 
 keycode 100 = AltGr
 alt keycode 100 = Compose

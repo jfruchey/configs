@@ -1,6 +1,6 @@
 keymaps 0-2,4-6,8-9,12
 alt_is_meta
-include "linux-with-alt-and-altgr.inc"
+include "includes/linux-with-alt-and-altgr.inc"
 strings as usual
 
 keycode   1 = grave            asciitilde      
@@ -22,7 +22,7 @@ keycode  12 = bracketleft      braceleft
 	control keycode  12 = Escape          
 keycode  13 = bracketright     braceright       asciitilde      Control_bracketright
 keycode  14 = backslash        bar             
-	control keycode  43 = Control_backslash
+	control keycode  14 = Control_backslash
 keycode  15 = Tab              
 	shift	keycode  15 = Meta_Tab
 keycode  16 = apostrophe       quotedbl        
@@ -55,7 +55,7 @@ keycode  39 = s
 keycode  40 = minus           underscore       backslash     Control_underscore 	Control_underscore
 keycode  41 = Escape           
 keycode  42 = Shift           
-keycode  14 = Delete           
+keycode  43 = Delete           
 keycode  44 = semicolon        colon           
 keycode  45 = q               
 keycode  46 = j               
